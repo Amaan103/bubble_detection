@@ -15,9 +15,9 @@ class Config:
     CIRCLE_MARGIN = 45 
 
     # Thresholds
-    THRESH_LOW_START = 17.5
-    THRESH_MED_START = 22.5   
-    THRESH_HIGH_START = 27.5  
+    THRESH_LOW_START = 15.5
+    THRESH_MED_START = 20.5   
+    THRESH_HIGH_START = 25.5  
     HYSTERESIS_BUFFER = 0.5
 
     # Optical Flow & Motion
