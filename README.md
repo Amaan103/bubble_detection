@@ -84,9 +84,9 @@ python3 bubble_detector.py \
 ```bash
 | Category  | Intensity Range | ABEx Mission Status      |
 | --------- | --------------- | ------------------------ |
-| NO BUBBLE | <17.5%          | Stable fluid sample      |
-| LOW       | 17.5-22.5%      | Minor gas evolution      |
-| MEDIUM    | 22.5-27.5%      | Active chemical reaction |
+| NO BUBBLE | <14.5%          | Stable fluid sample      |
+| LOW       | 14.5-18.5%      | Minor gas evolution      |
+| MEDIUM    | 18.5-22.5%      | Active chemical reaction |
 | HIGH      | >27.5%          | Strong gas production    |
 ```
 
