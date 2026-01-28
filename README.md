@@ -2,7 +2,7 @@
 
 ## Features
 - Real-time 4-tier bubble classification (NO/LOW/MEDIUM/HIGH)
-- Full frame analysis (no ROI restriction) 
+- Full frame analysis
 - Multi-sensor fusion: Area + Motion + Edge density + LBP texture
 - Hysteresis tracking for stable state transitions
 - **Jetson Nano optimized** (15-25 FPS target)
@@ -10,7 +10,6 @@
 - USB Webcam ready
 
 ## Requirements
-- Ubuntu 18.04/20.04
 - Python 3.8+
 - USB Webcam
 - OpenCV 4.5+
@@ -23,7 +22,7 @@ pip3 install opencv-python==4.8.1.78 numpy
 
 # Clone repository
 cd ~
-git clone <your-repo-url>
+git clone https://github.com/Amaan103/bubble_detection
 cd abex-bubble-detector
 
 # Test camera access
