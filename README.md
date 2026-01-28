@@ -23,7 +23,6 @@ pip3 install opencv-python==4.8.1.78 numpy
 # Clone repository
 cd ~
 git clone https://github.com/Amaan103/bubble_detection
-cd abex-bubble-detector
 
 # Test camera access
 python3 bubble_detector.py --test-camera
