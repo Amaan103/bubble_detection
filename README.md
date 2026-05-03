@@ -9,6 +9,12 @@
 - Real-time CSV logging for analysis
 - USB Webcam ready
 
+  
+
+https://github.com/user-attachments/assets/6c870ae7-9306-4966-8a61-a9203b7fb0c9
+
+
+
 ## Requirements
 - Python 3.8+
 - USB Webcam
