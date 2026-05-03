@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 import csv
 
-# ===================== CONFIG =====================
+#config
 class Config:
     # Camera
     CAMERA_INDEX = 0          # 0 = default webcam
@@ -59,7 +59,7 @@ class Config:
     SMOOTH_WINDOW = 15
     LOG_DIR = "logs"
 
-# ===================== HELPERS =====================
+#helpers
 class CategoryTracker:
     def __init__(self):
         self.current = "NO BUBBLE"
@@ -103,7 +103,7 @@ def calculate_confidence(area, motion, edge, lbp):
     tex = 1.0 if abs(lbp - 0.4) < 0.2 else 0.5
     return min(100.0, (0.4 * intensity + 0.4 * edge_score + 0.2 * tex) * 100)
 
-# ===================== MAIN =====================
+# main
 def main():
     ensure_dir(Config.LOG_DIR)
 
